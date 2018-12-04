@@ -1,0 +1,75 @@
+<!--
+  Generated template for the TelaDisciplinasAlunoPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Conteúdos da disciplina</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <ion-menu side="left" type="overlay" [content]="mycontent">
+    <ion-header>
+
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list>
+        <ion-item (click)="isInicial()">Inicial</ion-item>
+        <ion-item (click)="isNotas()">Notas</ion-item>
+        <ion-item (click)="isDisciplinas()">Disciplinas</ion-item>
+        <ion-item (click)="isSair()">Sair</ion-item>
+        <ion-item menuClose detail-none>Fechar</ion-item>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+
+  <ion-card>
+    <ion-card-header>
+      <p>Conteúdo 1</p>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>Tema: Microbiologia, Anatomia e Seres Vivos</p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+      <ion-card-header>
+        <p>Conteúdo 2</p>
+      </ion-card-header>
+  
+      <ion-card-content>
+        <p>Tema: Microbiologia, Anatomia e Seres Vivos</p>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card>
+        <ion-card-header>
+          <p>Conteúdo 3</p>
+        </ion-card-header>
+    
+        <ion-card-content>
+          <p>Tema: Microbiologia, Anatomia e Seres Vivos</p>
+        </ion-card-content>
+      </ion-card>
+
+      <ion-card backgroud="black"> 
+          <ion-card-header>
+            <p>Conteúdo 4</p>
+          </ion-card-header>
+      
+          <ion-card-content>
+            <p>Tema: Microbiologia, Anatomia e Seres Vivos</p>
+          </ion-card-content>
+        </ion-card>
+
+</ion-content>
