@@ -27,6 +27,8 @@ export class TelaPerfilPage {
 
   isTelaInicial(teste){
       var tela = teste;
+  isTelaInicial(teste) {
+     /* var tela = teste;
       console.log(tela);
     if (tela == "aluno") {
       this.navCtrl.push(TelaInicialAlunoPage);
@@ -34,6 +36,8 @@ export class TelaPerfilPage {
       this.navCtrl.push(TelaInicialProfessorPage);
     }
 
+    }*/
+    this.navCtrl.push(TelaInicialAlunoPage);
   }
 
   isSair(){
@@ -42,4 +46,5 @@ export class TelaPerfilPage {
 
 
 
+    
 }
