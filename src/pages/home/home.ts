@@ -14,11 +14,11 @@ export class HomePage {
   }
 
   isTelaPerfil(){
-    this.navCtrl.push(TelaPerfilPage);
+    this.navCtrl.setRoot(TelaPerfilPage);
   }
 
   isTelaCadastrar(){
-    this.navCtrl.push(TelaCadastroPage);
+    this.navCtrl.setRoot(TelaCadastroPage);
   }
 
 }

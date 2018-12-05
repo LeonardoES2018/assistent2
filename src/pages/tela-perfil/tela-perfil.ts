@@ -25,8 +25,6 @@ export class TelaPerfilPage {
     console.log('ionViewDidLoad TelaPerfilPage');
   }
 
-  isTelaInicial(teste){
-      var tela = teste;
   isTelaInicial(teste) {
      /* var tela = teste;
       console.log(tela);
@@ -37,14 +35,11 @@ export class TelaPerfilPage {
     }
 
     }*/
-    this.navCtrl.push(TelaInicialAlunoPage);
+    this.navCtrl.setRoot(TelaInicialAlunoPage);
   }
 
   isSair(){
-    this.navCtrl.push(HomePage);
+    this.navCtrl.setRoot(HomePage);
   }
-
-
-
     
 }
